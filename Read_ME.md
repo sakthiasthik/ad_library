@@ -14,10 +14,9 @@ Welcome to the **Altium Library Collection**! This repository contains pre-conve
 
 ### 📂 **Folder Structure:**
 
-#### /ad_libraries
-##### /Schematic_Symbols
-##### /Footprints
-##### /3D_Models
+- [Schematic Symbols](./Schematic_Symbols)
+- [Footprints](./Footprints)
+- [3D Models](./3D_Models)
 
 ---
 
