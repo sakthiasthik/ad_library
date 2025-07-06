@@ -1,3 +1,50 @@
+#For PCBs designed using Altium
+
+# Altium Designer Backup Files
+*.bak
+*.bak2
+*.sch~  # Temporary schematic files
+*.pcb~  # Temporary PCB files
+*.PrjPCB~ # Temporary Project files
+
+# Altium Cache Files
+\*.Cache
+\*.AltiumCache
+\*.WorkBackup
+*/History/*
+
+# # Altium Generated Log and Temp Files
+# *.log
+# *.drl
+# *.out
+# *.txt
+*.lnk
+*.wrl
+*.CMP
+
+# # Altium Settings Files
+# \*.Cfg
+# \*.PrjPCB
+# \*.SchDoc
+# \*.PcbDoc
+# \*.FodFile
+
+# # Altium Database Libraries (optional, if you are not using these for version control)
+# \*.DbLib
+# \*.PcbLib
+
+# # Altium component libraries and other generated files
+# *.CmpLib
+# *.LibPkg
+# *.SchLib
+# *.PcbLib
+# *.Pcb3D
+
+# Exclude any local user-specific configuration or backup
+/.vs/
+.idea/
+.vscode/
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -29,9 +76,9 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# # Exported BOM files
+# *.xml
+# *.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
