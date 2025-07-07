@@ -11,20 +11,20 @@
 \*.Cache
 \*.AltiumCache
 \*.WorkBackup
-*/History/*
+**/History/*
 
 # # Altium Generated Log and Temp Files
-# *.log
+*.log
 # *.drl
 # *.out
-# *.txt
+*.txt
 *.lnk
 *.wrl
 *.CMP
 
 # # Altium Settings Files
 # \*.Cfg
-# \*.PrjPCB
+\*.PrjPCB
 # \*.SchDoc
 # \*.PcbDoc
 # \*.FodFile
@@ -85,3 +85,4 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+*.PrjPcb
