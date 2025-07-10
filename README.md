@@ -17,6 +17,7 @@ Welcome to the **Altium Library Collection**! This repository contains pre-conve
 - [Schematic Symbols](./Schematic_Symbols)
 - [Footprints](./Footprints)
 - [3D Models](./3D_Models)
+- [Int Library](./Int_Library)
 
 ---
 
