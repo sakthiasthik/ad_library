@@ -53,8 +53,14 @@ Below is a detailed mapping of KiCad layers to Altium layers, including the mech
 
 Below is the visual representation of the **PCB stack-up** showing the layers:
 
-![Kicad to Altium importer Layer](./Kicad%20to%20Altium%20importer%20Layer.JPG)
+![Kicad Altium_Board_Layer_Mapping](./Kicad%20Altium_Board_Layer_Mapping.PNG)
 
+---
+
+## Altium View Configuration
+
+![Altium View_Configuration](./Altium%20View_Configuration.PNG)
+![Layer_View_Configuration](./Layer_View_Configuration.PNG)
 ---
 
 For more details on configuring the layer stack in Altium, refer to the Altium documentation or the repository's main README.
