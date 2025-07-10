@@ -5,9 +5,9 @@ This folder contains Altium Integrated Libraries (.IntLib) that combine schemati
 .IntLib files: Integrated libraries containing symbols, footprints, and 3D models in Altium format.
 These libraries are created by linking or importing the respective components from the main folders:
 
-- [Schematic Symbols](./Schematic_Symbols)
-- [Footprints](./Footprints)
-- [3D Models](./3D_Models)
+- [Schematic Symbols](../Schematic_Symbols)
+- [Footprints](../Footprints)
+- [3D Models](../3D_Models)
 
 This makes it easy to distribute and reuse components without needing to manage multiple files.
 
