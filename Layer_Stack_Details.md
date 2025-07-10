@@ -53,7 +53,7 @@ Below is a detailed mapping of KiCad layers to Altium layers, including the mech
 
 Below is the visual representation of the **PCB stack-up** showing the layers:
 
--[PCB Layer Stack-Up] (./Kicad to Altium importer Layer.JPG)
+-[Kicad to Altium importer Layer] (./Kicad to Altium importer Layer.JPG)
 
 ---
 
