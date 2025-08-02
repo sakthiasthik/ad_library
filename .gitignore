@@ -24,7 +24,7 @@
 
 # # Altium Settings Files
 # \*.Cfg
-\*.PrjPCB
+#\*.PrjPCB
 # \*.SchDoc
 # \*.PcbDoc
 # \*.FodFile
@@ -109,4 +109,4 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
-*.PrjPcb
+#*.PrjPcb
