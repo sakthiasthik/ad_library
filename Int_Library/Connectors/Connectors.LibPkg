@@ -98,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FCWTCTAX
 
 [Document4]
 DocumentPath=..\..\Schematic_Symbols\Connector_Generic_MountingPin.SchLib
@@ -149,7 +149,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KYKBYWBI
 
 [Document7]
 DocumentPath=..\..\Footprints\Connector_Dsub.PcbLib
@@ -166,7 +166,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KHSOTDLX
 
 [Document8]
 DocumentPath=..\..\Footprints\Connector_Hirose.PcbLib
@@ -183,7 +183,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VMHFYXDX
 
 [Document9]
 DocumentPath=..\..\Footprints\Connector_IDC.PcbLib
@@ -289,6 +289,23 @@ DocumentUniqueId=
 
 [Document15]
 DocumentPath=..\..\Footprints\Connector_USB.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UQOVKQHY
+
+[Document16]
+DocumentPath=..\..\Footprints\Fiducial.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
