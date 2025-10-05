@@ -81,7 +81,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FWVPEBKW
 
 [Document3]
 DocumentPath=..\..\Schematic_Symbols\Connector_Generic.SchLib
@@ -115,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WRSBERAK
 
 [Document5]
 DocumentPath=..\..\Schematic_Symbols\Connector_Generic_Shielded.SchLib
@@ -132,7 +132,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MITDRVMD
 
 [Document6]
 DocumentPath=..\..\Footprints\Connector_Card.PcbLib
@@ -306,6 +306,23 @@ DocumentUniqueId=UQOVKQHY
 
 [Document16]
 DocumentPath=..\..\Footprints\Fiducial.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PMEODQEL
+
+[Document17]
+DocumentPath=..\..\Footprints\Connector_Coaxial.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
