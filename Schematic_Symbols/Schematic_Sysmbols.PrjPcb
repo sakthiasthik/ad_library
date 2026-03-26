@@ -356,6 +356,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document19]
+DocumentPath=Battery_Holder.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LNKQSSVL
+
+[Document20]
 DocumentPath=Buffer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document21]
 DocumentPath=Comparator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=Connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=Connector_Audio.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=Connector_Generic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=Connector_Generic_MountingPin.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -455,9 +472,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WRSBERAK
 
-[Document25]
+[Document26]
 DocumentPath=Connector_Generic_Shielded.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +491,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document27]
 DocumentPath=Converter_ACDC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +508,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=Converter_DCDC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +525,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document29]
 DocumentPath=CPLD_Altera.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -525,7 +542,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document30]
 DocumentPath=CPLD_Microchip.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -542,7 +559,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document31]
 DocumentPath=CPLD_Renesas.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -559,7 +576,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document32]
 DocumentPath=CPLD_Xilinx.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -576,7 +593,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document33]
 DocumentPath=CPU.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -593,7 +610,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document34]
 DocumentPath=CPU_NXP_6800.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -610,7 +627,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document35]
 DocumentPath=CPU_NXP_68000.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -627,7 +644,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
+[Document36]
 DocumentPath=CPU_NXP_IMX.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -644,7 +661,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document36]
+[Document37]
 DocumentPath=CPU_PowerPC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -661,7 +678,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document38]
 DocumentPath=Device.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -678,7 +695,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document39]
 DocumentPath=Diode.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -695,7 +712,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document40]
 DocumentPath=Diode_Bridge.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -712,7 +729,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document41]
 DocumentPath=Diode_Laser.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -729,7 +746,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document42]
 DocumentPath=Display_Character.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -746,7 +763,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document42]
+[Document43]
 DocumentPath=Display_Graphic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -763,7 +780,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document43]
+[Document44]
 DocumentPath=Driver_Display.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -780,7 +797,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document44]
+[Document45]
 DocumentPath=Driver_FET.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -797,7 +814,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document45]
+[Document46]
 DocumentPath=Driver_Haptic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -814,7 +831,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document46]
+[Document47]
 DocumentPath=Driver_LED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -831,7 +848,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document47]
+[Document48]
 DocumentPath=Driver_Motor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -848,7 +865,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document48]
+[Document49]
 DocumentPath=Driver_Relay.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -865,7 +882,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document49]
+[Document50]
 DocumentPath=Driver_TEC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -882,7 +899,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document50]
+[Document51]
 DocumentPath=DSP_AnalogDevices.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -899,7 +916,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document51]
+[Document52]
 DocumentPath=DSP_Freescale.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -916,7 +933,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document52]
+[Document53]
 DocumentPath=DSP_Microchip_DSPIC33.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -933,7 +950,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document53]
+[Document54]
 DocumentPath=DSP_Motorola.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -950,7 +967,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document54]
+[Document55]
 DocumentPath=DSP_Texas.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -967,7 +984,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document55]
+[Document56]
 DocumentPath=Fiber_Optic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -984,7 +1001,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document56]
+[Document57]
 DocumentPath=Filter.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1001,7 +1018,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document57]
+[Document58]
 DocumentPath=FPGA_CologneChip_GateMate.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1018,7 +1035,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document58]
+[Document59]
 DocumentPath=FPGA_Efinix_Trion.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1035,7 +1052,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document59]
+[Document60]
 DocumentPath=FPGA_Lattice.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1052,7 +1069,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document60]
+[Document61]
 DocumentPath=FPGA_Microsemi.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1069,7 +1086,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document61]
+[Document62]
 DocumentPath=FPGA_Xilinx.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1086,7 +1103,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document62]
+[Document63]
 DocumentPath=FPGA_Xilinx_Artix7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1103,7 +1120,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document63]
+[Document64]
 DocumentPath=FPGA_Xilinx_Kintex7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1120,7 +1137,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document64]
+[Document65]
 DocumentPath=FPGA_Xilinx_Spartan6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1137,7 +1154,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document65]
+[Document66]
 DocumentPath=FPGA_Xilinx_Virtex5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1154,7 +1171,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document66]
+[Document67]
 DocumentPath=FPGA_Xilinx_Virtex6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1171,7 +1188,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document67]
+[Document68]
 DocumentPath=FPGA_Xilinx_Virtex7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1188,7 +1205,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document68]
+[Document69]
 DocumentPath=GPU.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1205,7 +1222,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document69]
+[Document70]
 DocumentPath=Graphic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1222,7 +1239,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document70]
+[Document71]
 DocumentPath=Interface.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1239,7 +1256,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document71]
+[Document72]
 DocumentPath=Interface_CAN_LIN.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1256,7 +1273,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document72]
+[Document73]
 DocumentPath=Interface_CurrentLoop.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1273,7 +1290,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document73]
+[Document74]
 DocumentPath=Interface_Ethernet.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1290,7 +1307,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document74]
+[Document75]
 DocumentPath=Interface_Expansion.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1307,7 +1324,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document75]
+[Document76]
 DocumentPath=Interface_HDMI.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1324,7 +1341,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document76]
+[Document77]
 DocumentPath=Interface_HID.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1341,7 +1358,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document77]
+[Document78]
 DocumentPath=Interface_LineDriver.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1358,7 +1375,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document78]
+[Document79]
 DocumentPath=Interface_Optical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1375,7 +1392,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document79]
+[Document80]
 DocumentPath=Interface_Telecom.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1392,7 +1409,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document80]
+[Document81]
 DocumentPath=Interface_UART.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1409,7 +1426,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document81]
+[Document82]
 DocumentPath=Interface_USB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1426,7 +1443,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document82]
+[Document83]
 DocumentPath=Isolator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1443,7 +1460,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document83]
+[Document84]
 DocumentPath=Isolator_Analog.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1460,7 +1477,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document84]
+[Document85]
 DocumentPath=Jumper.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1477,7 +1494,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document85]
+[Document86]
 DocumentPath=LED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1494,7 +1511,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document86]
+[Document87]
 DocumentPath=Logic_LevelTranslator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1511,7 +1528,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document87]
+[Document88]
 DocumentPath=Logic_Programmable.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1528,7 +1545,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document88]
+[Document89]
 DocumentPath=MCU_AnalogDevices.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1545,7 +1562,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document89]
+[Document90]
 DocumentPath=MCU_Cypress.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1562,7 +1579,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document90]
+[Document91]
 DocumentPath=MCU_Dialog.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1579,7 +1596,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document91]
+[Document92]
 DocumentPath=MCU_Espressif.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1596,7 +1613,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document92]
+[Document93]
 DocumentPath=MCU_Intel.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1613,7 +1630,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document93]
+[Document94]
 DocumentPath=MCU_Microchip_8051.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1630,7 +1647,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document94]
+[Document95]
 DocumentPath=MCU_Microchip_ATmega.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1647,7 +1664,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document95]
+[Document96]
 DocumentPath=MCU_Microchip_ATtiny.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1664,7 +1681,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document96]
+[Document97]
 DocumentPath=MCU_Microchip_AVR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1681,7 +1698,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document97]
+[Document98]
 DocumentPath=MCU_Microchip_AVR_Dx.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1698,7 +1715,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document98]
+[Document99]
 DocumentPath=MCU_Microchip_PIC10.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1715,7 +1732,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document99]
+[Document100]
 DocumentPath=MCU_Microchip_PIC12.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1732,7 +1749,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document100]
+[Document101]
 DocumentPath=MCU_Microchip_PIC16.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1749,7 +1766,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document101]
+[Document102]
 DocumentPath=MCU_Microchip_PIC18.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1766,7 +1783,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document102]
+[Document103]
 DocumentPath=MCU_Microchip_PIC24.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1783,7 +1800,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document103]
+[Document104]
 DocumentPath=MCU_Microchip_PIC32.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1800,7 +1817,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document104]
+[Document105]
 DocumentPath=MCU_Microchip_SAMA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1817,7 +1834,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document105]
+[Document106]
 DocumentPath=MCU_Microchip_SAMD.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1834,7 +1851,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document106]
+[Document107]
 DocumentPath=MCU_Microchip_SAME.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1851,7 +1868,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document107]
+[Document108]
 DocumentPath=MCU_Microchip_SAML.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1868,7 +1885,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document108]
+[Document109]
 DocumentPath=MCU_Microchip_SAMV.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1885,7 +1902,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document109]
+[Document110]
 DocumentPath=MCU_Module.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1902,7 +1919,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document110]
+[Document111]
 DocumentPath=MCU_Nordic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1919,7 +1936,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document111]
+[Document112]
 DocumentPath=MCU_NXP_ColdFire.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1936,7 +1953,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document112]
+[Document113]
 DocumentPath=MCU_NXP_HC11.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1953,7 +1970,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document113]
+[Document114]
 DocumentPath=MCU_NXP_HC12.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1970,7 +1987,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document114]
+[Document115]
 DocumentPath=MCU_NXP_HCS12.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1987,7 +2004,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document115]
+[Document116]
 DocumentPath=MCU_NXP_Kinetis.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2004,7 +2021,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document116]
+[Document117]
 DocumentPath=MCU_NXP_LPC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2021,7 +2038,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document117]
+[Document118]
 DocumentPath=MCU_NXP_MAC7100.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2038,7 +2055,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document118]
+[Document119]
 DocumentPath=MCU_NXP_MCore.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2055,7 +2072,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document119]
+[Document120]
 DocumentPath=MCU_NXP_NTAG.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2072,7 +2089,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document120]
+[Document121]
 DocumentPath=MCU_NXP_S08.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2089,7 +2106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document121]
+[Document122]
 DocumentPath=MCU_Parallax.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2106,7 +2123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document122]
+[Document123]
 DocumentPath=MCU_Puya.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2123,7 +2140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document123]
+[Document124]
 DocumentPath=MCU_RaspberryPi.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2140,7 +2157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document124]
+[Document125]
 DocumentPath=MCU_Renesas_Synergy_S1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2157,7 +2174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document125]
+[Document126]
 DocumentPath=MCU_SiFive.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2174,7 +2191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document126]
+[Document127]
 DocumentPath=MCU_SiliconLabs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2191,7 +2208,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document127]
+[Document128]
 DocumentPath=MCU_ST_STM8.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2208,7 +2225,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document128]
+[Document129]
 DocumentPath=MCU_ST_STM32C0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2225,7 +2242,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document129]
+[Document130]
 DocumentPath=MCU_ST_STM32F0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2242,7 +2259,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document130]
+[Document131]
 DocumentPath=MCU_ST_STM32F1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2259,7 +2276,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document131]
+[Document132]
 DocumentPath=MCU_ST_STM32F2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2276,7 +2293,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document132]
+[Document133]
 DocumentPath=MCU_ST_STM32F3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2293,7 +2310,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document133]
+[Document134]
 DocumentPath=MCU_ST_STM32F4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2310,7 +2327,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document134]
+[Document135]
 DocumentPath=MCU_ST_STM32F7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2327,7 +2344,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document135]
+[Document136]
 DocumentPath=MCU_ST_STM32G0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2344,7 +2361,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document136]
+[Document137]
 DocumentPath=MCU_ST_STM32G4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2361,7 +2378,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document137]
+[Document138]
 DocumentPath=MCU_ST_STM32H5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2378,7 +2395,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document138]
+[Document139]
 DocumentPath=MCU_ST_STM32H7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2395,7 +2412,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document139]
+[Document140]
 DocumentPath=MCU_ST_STM32L0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2412,7 +2429,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document140]
+[Document141]
 DocumentPath=MCU_ST_STM32L1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2429,7 +2446,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document141]
+[Document142]
 DocumentPath=MCU_ST_STM32L4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2446,7 +2463,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document142]
+[Document143]
 DocumentPath=MCU_ST_STM32L5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2463,7 +2480,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document143]
+[Document144]
 DocumentPath=MCU_ST_STM32MP1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2480,7 +2497,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document144]
+[Document145]
 DocumentPath=MCU_ST_STM32U0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2497,7 +2514,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document145]
+[Document146]
 DocumentPath=MCU_ST_STM32U5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2514,7 +2531,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document146]
+[Document147]
 DocumentPath=MCU_ST_STM32WB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2531,7 +2548,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document147]
+[Document148]
 DocumentPath=MCU_ST_STM32WL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2548,7 +2565,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document148]
+[Document149]
 DocumentPath=MCU_STC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2565,7 +2582,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document149]
+[Document150]
 DocumentPath=MCU_Texas.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2582,7 +2599,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document150]
+[Document151]
 DocumentPath=MCU_Texas_MSP430.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2599,7 +2616,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document151]
+[Document152]
 DocumentPath=MCU_Texas_SimpleLink.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2616,7 +2633,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document152]
+[Document153]
 DocumentPath=MCU_Trident.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2633,7 +2650,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document153]
+[Document154]
 DocumentPath=MCU_WCH_CH32V0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2650,7 +2667,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document154]
+[Document155]
 DocumentPath=MCU_WCH_CH32V2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2667,7 +2684,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document155]
+[Document156]
 DocumentPath=MCU_WCH_CH32V3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2684,7 +2701,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document156]
+[Document157]
 DocumentPath=MCU_WCH_CH32X0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2701,7 +2718,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document157]
+[Document158]
 DocumentPath=Mechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2718,7 +2735,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document158]
+[Document159]
 DocumentPath=Memory_EEPROM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2735,7 +2752,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document159]
+[Document160]
 DocumentPath=Memory_EPROM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2752,7 +2769,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document160]
+[Document161]
 DocumentPath=Memory_Flash.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2769,7 +2786,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document161]
+[Document162]
 DocumentPath=Memory_NVRAM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2786,7 +2803,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document162]
+[Document163]
 DocumentPath=Memory_RAM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2803,7 +2820,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document163]
+[Document164]
 DocumentPath=Memory_ROM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2820,7 +2837,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document164]
+[Document165]
 DocumentPath=Memory_UniqueID.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2837,7 +2854,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document165]
+[Document166]
 DocumentPath=Motor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2854,7 +2871,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document166]
+[Document167]
 DocumentPath=Oscillator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2871,7 +2888,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document167]
+[Document168]
 DocumentPath=Passive.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2888,7 +2905,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document168]
+[Document169]
 DocumentPath=Potentiometer_Digital.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2905,7 +2922,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document169]
+[Document170]
 DocumentPath=power.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2922,7 +2939,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document170]
+[Document171]
 DocumentPath=Power_Management.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2939,7 +2956,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document171]
+[Document172]
 DocumentPath=Power_Protection.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2956,7 +2973,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document172]
+[Document173]
 DocumentPath=Power_Supervisor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2973,7 +2990,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document173]
+[Document174]
 DocumentPath=Reference_Current.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -2990,7 +3007,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document174]
+[Document175]
 DocumentPath=Reference_Voltage.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3007,7 +3024,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document175]
+[Document176]
 DocumentPath=Regulator_Controller.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3024,7 +3041,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document176]
+[Document177]
 DocumentPath=Regulator_Current.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3041,7 +3058,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document177]
+[Document178]
 DocumentPath=Regulator_Linear.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3058,7 +3075,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document178]
+[Document179]
 DocumentPath=Regulator_SwitchedCapacitor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3075,7 +3092,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document179]
+[Document180]
 DocumentPath=Regulator_Switching.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3092,7 +3109,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document180]
+[Document181]
 DocumentPath=Relay.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3109,7 +3126,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document181]
+[Document182]
 DocumentPath=Relay_SolidState.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3126,7 +3143,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document182]
+[Document183]
 DocumentPath=RF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3143,7 +3160,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document183]
+[Document184]
 DocumentPath=RF_AM_FM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3160,7 +3177,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document184]
+[Document185]
 DocumentPath=RF_Amplifier.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3177,7 +3194,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document185]
+[Document186]
 DocumentPath=RF_Bluetooth.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3194,7 +3211,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document186]
+[Document187]
 DocumentPath=RF_Filter.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3211,7 +3228,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document187]
+[Document188]
 DocumentPath=RF_GPS.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3228,7 +3245,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document188]
+[Document189]
 DocumentPath=RF_GSM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3245,7 +3262,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document189]
+[Document190]
 DocumentPath=RF_Mixer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3262,7 +3279,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document190]
+[Document191]
 DocumentPath=RF_Module.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3279,7 +3296,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document191]
+[Document192]
 DocumentPath=RF_NFC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3296,7 +3313,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document192]
+[Document193]
 DocumentPath=RF_RFID.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3313,7 +3330,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document193]
+[Document194]
 DocumentPath=RF_Switch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3330,7 +3347,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document194]
+[Document195]
 DocumentPath=RF_WiFi.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3347,7 +3364,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document195]
+[Document196]
 DocumentPath=RF_ZigBee.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3364,7 +3381,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document196]
+[Document197]
 DocumentPath=Security.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3381,7 +3398,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document197]
+[Document198]
 DocumentPath=Sensor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3398,7 +3415,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document198]
+[Document199]
 DocumentPath=Sensor_Audio.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3415,7 +3432,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document199]
+[Document200]
 DocumentPath=Sensor_Current.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3432,7 +3449,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document200]
+[Document201]
 DocumentPath=Sensor_Distance.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3449,7 +3466,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document201]
+[Document202]
 DocumentPath=Sensor_Energy.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3466,7 +3483,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document202]
+[Document203]
 DocumentPath=Sensor_Gas.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3483,7 +3500,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document203]
+[Document204]
 DocumentPath=Sensor_Humidity.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3500,7 +3517,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document204]
+[Document205]
 DocumentPath=Sensor_Magnetic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3517,7 +3534,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document205]
+[Document206]
 DocumentPath=Sensor_Motion.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3534,7 +3551,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document206]
+[Document207]
 DocumentPath=Sensor_Optical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3551,7 +3568,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document207]
+[Document208]
 DocumentPath=Sensor_Pressure.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3568,7 +3585,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document208]
+[Document209]
 DocumentPath=Sensor_Proximity.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3585,7 +3602,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document209]
+[Document210]
 DocumentPath=Sensor_Temperature.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3602,7 +3619,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document210]
+[Document211]
 DocumentPath=Sensor_Touch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3619,7 +3636,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document211]
+[Document212]
 DocumentPath=Sensor_Voltage.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3636,7 +3653,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document212]
+[Document213]
 DocumentPath=Simulation_SPICE.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3653,7 +3670,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document213]
+[Document214]
 DocumentPath=Switch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3670,7 +3687,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document214]
+[Document215]
 DocumentPath=Timer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3687,7 +3704,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document215]
+[Document216]
 DocumentPath=Timer_PLL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3704,7 +3721,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document216]
+[Document217]
 DocumentPath=Timer_RTC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3721,7 +3738,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document217]
+[Document218]
 DocumentPath=Transformer.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3738,7 +3755,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document218]
+[Document219]
 DocumentPath=Transistor_Array.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3755,7 +3772,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document219]
+[Document220]
 DocumentPath=Transistor_BJT.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3772,7 +3789,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document220]
+[Document221]
 DocumentPath=Transistor_FET.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3789,7 +3806,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document221]
+[Document222]
 DocumentPath=Transistor_FET_Other.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3806,7 +3823,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document222]
+[Document223]
 DocumentPath=Transistor_IGBT.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3823,7 +3840,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document223]
+[Document224]
 DocumentPath=Transistor_Power_Module.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3840,7 +3857,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document224]
+[Document225]
 DocumentPath=Triac_Thyristor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3857,7 +3874,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document225]
+[Document226]
 DocumentPath=ubloxLib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3874,7 +3891,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document226]
+[Document227]
 DocumentPath=Valve.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -3891,7 +3908,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document227]
+[Document228]
 DocumentPath=Video.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -4442,101 +4459,71 @@ Name=Export Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Ansoft Neutral
-OutputName1=Ansoft Neutral (AutoPCB)
+OutputType1=AnsysEDB
+OutputName1=Ansys EDB
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AnsysEDB
-OutputName2=Ansys EDB
+OutputType2=AutoCAD dwg/dxf PCB
+OutputName2=AutoCAD dwg/dxf File PCB
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=AutoCAD dwg/dxf PCB
-OutputName3=AutoCAD dwg/dxf File PCB
+OutputType3=AutoCAD dwg/dxf Schematic
+OutputName3=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=AutoCAD dwg/dxf Schematic
-OutputName4=AutoCAD dwg/dxf File Schematic
+OutputType4=ExportIDF
+OutputName4=Export IDF
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=ExportIDF
-OutputName5=Export IDF
+OutputType5=ExportPARASOLID
+OutputName5=Export PARASOLID
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ExportPARASOLID
-OutputName6=Export PARASOLID
+OutputType6=ExportSTEP
+OutputName6=Export STEP
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=ExportSTEP
-OutputName7=Export STEP
+OutputType7=ExportVRML
+OutputName7=Export VRML
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=ExportVRML
-OutputName8=Export VRML
+OutputType8=MBAExportPARASOLID
+OutputName8=Export PARASOLID
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-OutputType9=HyperLynx
-OutputName9=HyperLynx (AutoPCB)
+OutputType9=MBAExportSTEP
+OutputName9=Export STEP
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
+OutputType10=Save As/Export PCB
+OutputName10=Save As/Export PCB
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
+OutputType11=Save As/Export Schematic
+OutputName11=Save As/Export Schematic
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputType12=Specctra Design PCB
+OutputName12=Specctra Design PCB
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
+OutputType13=Web ReviewOutputName
+OutputName13=Web Review Data
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Save As/Export PCB
-OutputName15=Save As/Export PCB
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Save As/Export Schematic
-OutputName16=Save As/Export Schematic
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=Specctra Design PCB
-OutputName18=Specctra Design PCB
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=Web ReviewOutputName
-OutputName19=Web Review Data
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
