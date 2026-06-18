@@ -152,6 +152,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CJEKBSBP
 
 [Document7]
+DocumentPath=..\..\Schematic_Symbols\Power_Bank.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NTLFHROP
+
+[Document8]
 DocumentPath=..\..\Schematic_Symbols\Power_Management.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXJOCUEX
 
-[Document8]
+[Document9]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Current.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWFGMWKR
 
-[Document9]
+[Document10]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Linear.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFYIPDFC
 
-[Document10]
+[Document11]
 DocumentPath=..\..\Schematic_Symbols\Regulator_SwitchedCapacitor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRNIPWBZ
 
-[Document11]
+[Document12]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Switching.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZIZWVFYV
 
-[Document12]
+[Document13]
 DocumentPath=..\..\Schematic_Symbols\Reference_Voltage.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IQFVUORC
 
-[Document13]
+[Document14]
 DocumentPath=..\..\Footprints\TI.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
