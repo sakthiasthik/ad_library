@@ -14,10 +14,7 @@ name: sync-branches
 on:
   push:
     branches:
-      - dev-sakthi
-      - dev-srigowd
-      - dev-dhanush
-      - dev-sachin
+      - 'dev-*'   # ANY branch named dev-something, including FUTURE new ones
   workflow_dispatch: {}
 
 permissions:
@@ -47,7 +44,9 @@ jobs:
         run: |
           set -e
           SRC="${GITHUB_REF_NAME}"
-          ALL="dev-sakthi dev-srigowd dev-dhanush dev-sachin"
+          # Discover every dev-* branch that currently exists (future-proof:
+          # new dev-* branches are picked up automatically, no edit needed).
+          ALL=$(git for-each-ref --format='%(refname:short)' 'refs/remotes/origin/dev-*' | sed 's#^origin/##')
 
           # 1) merge the pushed branch into dev (PR if it can't merge cleanly)
           git checkout dev
