@@ -1,48 +1,106 @@
-# Altium Library Collection 📚
+# 📚 Altium Library Collection
 
-Welcome to the **Altium Library Collection**! This repository contains pre-converted **Altium libraries** for use in **Altium Designer**. The libraries have been sourced from **KiCad 9.0**, with some fine-tuning and tweaks made to ensure compatibility and proper usage within Altium.
+**Ready-to-use Altium Designer libraries** — schematic symbols, PCB footprints, 3D models, and compiled integrated libraries. Converted from KiCad 9.0, tuned for Altium, and continuously updated by the team.
 
----
-
-### 🛠️ **Features:**
-- **Converted Libraries**: Ready-to-use schematic symbols and footprints in **Altium format**.
-- **3D Model Linking**: Footprints are pre-linked with 3D models for easy integration.
-- **KiCad 9.0 Source**: Libraries were sourced from **KiCad 9.0** and adjusted for Altium compatibility.
-- **Ongoing Updates**: Libraries will be continuously updated with new components.
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Branches synced automatically](https://img.shields.io/badge/branches-auto--synced-green.svg)](docs/GIT_WORKFLOW.md)
+[![LFS file locking](https://img.shields.io/badge/lfs-file--locking-orange.svg)](docs/GIT_WORKFLOW.md#file-locking--detailed-reference)
 
 ---
 
-### 📂 **Folder Structure:**
+## What's inside
 
-- [Schematic Symbols](./Schematic_Symbols)
-- [Footprints](./Footprints)
-- [3D Models](./3D_Models)
-- [Int Library](./Int_Library)
-- [Images Asset](./Images_asset)
+| Directory | Contents | Format |
+|-----------|----------|--------|
+| [`Schematic_Symbols/`](Schematic_Symbols/) | 230+ schematic symbol libraries | `.SchLib` |
+| [`Footprints/`](Footprints/) | 150+ PCB footprint libraries | `.PcbLib` |
+| [`3D_Models/`](3D_Models/) | 7,000+ 3D component models | `.STEP`, `.STL` |
+| [`Int_Library/`](Int_Library/) | Compiled integrated libraries (symbol + footprint + 3D) | `.IntLib` |
+| [`Images_asset/`](Images_asset/) | Reference screenshots & layer config images | `.PNG` |
+| [`Script/`](Script/) | Altium automation scripts | `.PrjScr`, `.pas` |
 
----
-
-### 📥 **How to Use:**
-1. Browse the folders and select the Altium library files you need.
-2. Download and import them into **Altium Designer**.
-3. Footprints are pre-linked with their respective 3D models for immediate use in your designs.
+**💡 Tip:** If you only need to pluck out a few components, browse `Schematic_Symbols/` and `Footprints/` and import them directly into Altium. If you want the full integrated experience, use the `.IntLib` files from `Int_Library/`.
 
 ---
 
-### 🤝 **Contributing:**
-Feel free to contribute by forking the repo and submitting a pull request with any additional libraries or updates. All contributions are welcome!
+## I want to…
+
+| Task | Go here |
+|------|---------|
+| **Set up for the first time** | → [New Developer Guide](docs/NEW_DEVELOPER.md) |
+| **Add a new component** | → [Adding a Component](docs/ADDING_COMPONENT.md) |
+| **Understand Git & branches** | → [Git Workflow](docs/GIT_WORKFLOW.md) |
+| **See naming rules & structure** | → [Library Conventions](docs/LIBRARY_CONVENTIONS.md) |
+| **Keep a checklist while I work** | → [Component Checklist](NEW_COMPONENT_CHECKLIST.md) |
+| **Request a new component / report a bug** | → [Open an Issue](https://github.com/sakthiasthik/ad_library/issues/new/choose) |
+| **See KiCad → Altium layer mapping** | → [Layer Stack Details](Layer_Stack_Details.md) |
 
 ---
 
-### 📅 **Planned Future Updates:**
-- **Layer Stack**: We'll be adding layer stack information to the libraries in future updates.
+## 🔒 The golden rule
+
+> **Lock → Edit → Push → Unlock**
+
+Our library files are binary — Git cannot merge them. **Lock a file before opening it in Altium**, or you risk losing work.
+
+```bash
+git lfs lock Schematic_Symbols/Regulator_Switching.SchLib   # claim it
+# ... edit in Altium, commit, push ...
+git lfs unlock Schematic_Symbols/Regulator_Switching.SchLib # release it
+git lfs locks                                                 # who holds what?
+```
+
+**[Full guide →](docs/GIT_WORKFLOW.md)**
 
 ---
 
-### 📜 **License:**
-This project is licensed under the [MIT License](LICENSE).
+## 🔄 Branches auto-sync
+
+Push to your `dev-<name>` branch → a bot merges it into `dev` → fans `dev` out to everyone else. **Never pushes to `main` or `dev` directly.** No config needed — any branch named `dev-*` is picked up automatically.
+
+**[How it works →](docs/GIT_WORKFLOW.md#the-auto-sync-flow-what-happens-when-you-push)**
 
 ---
 
-### 💬 **Contact/Support:**
-For any questions or issues, feel free to open an issue, and we’ll assist you!
+## 🗺️ Repo map
+
+```
+ad_library/
+├── Schematic_Symbols/       ← .SchLib files (one per category)
+├── Footprints/              ← .PcbLib files (one per category)
+├── 3D_Models/               ← .STEP/.STL files (7k+ models)
+├── Int_Library/             ← Compiled .IntLib (category.LibPkg + Project Outputs/)
+├── Images_asset/            ← Screenshots & config references
+├── Script/                  ← Altium automation
+├── docs/                    ← (You are reading these) — process guides
+│   ├── NEW_DEVELOPER.md
+│   ├── ADDING_COMPONENT.md
+│   ├── GIT_WORKFLOW.md
+│   └── LIBRARY_CONVENTIONS.md
+├── NEW_COMPONENT_CHECKLIST.md
+├── Layer_Stack_Details.md
+├── .github/
+│   ├── workflows/sync.yml   ← Auto-sync action
+│   ├── ISSUE_TEMPLATE/      ← Bug & feature request forms
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── CODEOWNERS
+└── LICENSE                  ← MIT
+```
+
+---
+
+## 📅 Ongoing work
+
+- [ ] PCB Layer Stack Management — standard footprint layer assignments, via importer scripts and templates ([reference](Layer_Stack_Details.md))
+- [ ] More 3D models for connectors, packages, and passives ([TODO list](3D_Models/TODO.md))
+- [ ] Altium scripting support for batch operations
+
+---
+
+## 📜 License
+
+MIT — see [LICENSE](LICENSE).
+
+## 💬 Questions?
+
+[Open an issue](https://github.com/sakthiasthik/ad_library/issues/new/choose) or start a discussion. Contributions welcome — just follow the [new developer guide](docs/NEW_DEVELOPER.md).

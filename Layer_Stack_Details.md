@@ -1,6 +1,8 @@
-# Layer Stack Details
+# 📐 Layer Stack Details
 
-This document provides the **PCB layer stack** configuration and related parameters for the design.
+> **🔗 Part of the [Altium Library Collection](README.md)** — use this as a reference when creating footprints.
+
+This document provides the **PCB layer stack** configuration and related parameters for the design. All footprints in this library follow these layer assignments.
 
 ## KiCad to Altium Layer Mapping
 

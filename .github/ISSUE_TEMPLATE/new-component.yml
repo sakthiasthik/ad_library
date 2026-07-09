@@ -1,0 +1,67 @@
+name: Request a Component
+description: Request a new component to be added to the library
+title: "[Request]: "
+labels: ["enhancement", "new-component"]
+assignees: []
+body:
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      placeholder: e.g. Texas Instruments
+    validations:
+      required: true
+  - type: input
+    id: mpn
+    attributes:
+      label: Manufacturer Part Number (MPN)
+      placeholder: e.g. TPS61023DRLR
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Component Description
+      placeholder: e.g. Boost Converter, 5.5V, 3A
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Regulator (DC-DC / LDO)
+        - Connector
+        - Passive (R / C / L)
+        - MCU / Processor
+        - Amplifier
+        - Diode / TVS
+        - Transistor / FET
+        - Memory
+        - Audio
+        - RF
+        - Motor Driver
+        - Switch / Relay
+        - Other (describe below)
+    validations:
+      required: true
+  - type: input
+    id: datasheet
+    attributes:
+      label: Datasheet URL
+      placeholder: https://...
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Nice to have
+        - Needed for active project
+        - Urgent — blocking a design
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      placeholder: Package variant, special requirements, alternative parts, etc.
