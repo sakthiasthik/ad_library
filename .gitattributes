@@ -1,1 +1,14 @@
 *.IntLib* filter=lfs diff=lfs merge=lfs -text
+
+# --- Altium binary libraries: file locking (Git LFS) ---
+# These files are binary and CANNOT be text-merged by git. To avoid losing
+# work, lock a file before editing so only one person can change it at a time.
+#
+#   git lfs lock   Schematic_Symbols/Some.SchLib   # claim it before editing
+#   git push                                       # push your change
+#   git lfs unlock Schematic_Symbols/Some.SchLib   # release it
+#   git lfs locks                                  # see who holds what
+#
+*.SchLib lockable
+*.PcbLib lockable
+*.IntLib lockable

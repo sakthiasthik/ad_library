@@ -1,0 +1,19 @@
+# Auto-request reviewers when a PR touches these paths.
+# Last matching pattern wins for the last person; order matters.
+#
+# To add a new person, add their GitHub username below.
+# To claim a directory, uncomment and set your username.
+
+# --- Core library areas ---
+# Schematic_Symbols/    @sakthiasthik
+# Footprints/           @sakthiasthik
+# Int_Library/          @sakthiasthik
+
+# --- 3D models (usually auto-generated, lower review priority) ---
+# 3D_Models/            @sakthiasthik
+
+# --- Documentation (anyone can review) ---
+# docs/                 @sakthiasthik
+
+# --- CI / automation ---
+.github/                @sakthiasthik

@@ -1,18 +1,36 @@
-# Footprints 🛠️
+# 👣 Footprints
 
-This folder contains **Altium footprint libraries** converted from **KiCad 9.0** libraries. These footprints define the physical dimensions and pad layouts for various components used in PCB design.
+This folder contains **Altium PCB footprint libraries** (`.PcbLib`) converted from **KiCad 9.0** and tuned for Altium Designer. These define pad layouts, courtyards, and silkscreen for PCB layout.
 
-### 📂 **Files Included:**
-- **.PcbLib** files: These are the footprint libraries in **Altium format**.
+---
 
-### 🛠️ **How to Use:**
+## 📂 Contents
+- 150+ `.PcbLib` files organized by component category and manufacturer.
+- Footprints are **pre-linked** to 3D models in [`../3D_Models/`](../3D_Models/) where available.
+
+## 🛠️ How to use
 1. Open Altium Designer.
-2. Go to `File > Open`, and select the desired `.PcbLib` file from this folder.
-3. Import the footprints into your PCB layout by selecting them from the **Libraries** panel.
-4. These footprints are ready to be placed on your PCB designs.
+2. `File → Open` → select the `.PcbLib` file you need.
+3. Place footprints from the **Libraries panel** into your PCB layout.
 
-### 🏗️ **3D Model Linking:**
-The footprints in this folder are already linked to corresponding 3D models (if available in the **/3D_Models** folder). This allows for **real-time 3D visualization** while designing.
+## 🧊 3D model linking
+Footprints reference their 3D models via **relative paths** — works on any machine:
+```
+..\3D_Models\Capacitor_SMD.3dshapes\C_0805.STEP
+```
+If a model is missing, check [`3D_Models/TODO.md`](../3D_Models/TODO.md) — it may not exist yet.
 
-### 📅 **Planned Updates:**
-- More footprints will be added regularly to cover a wider range of components.
+## ⚠️ Lock before you edit
+`.PcbLib` files are binary. Lock before editing:
+```bash
+git lfs lock Footprints/<file>.PcbLib
+```
+After pushing: `git lfs unlock Footprints/<file>.PcbLib`
+
+**Full process →** [Adding a Component](../docs/ADDING_COMPONENT.md)
+
+## 📏 Layer assignments
+Footprints in this library use standard KiCad→Altium layer mapping. See [Layer Stack Details](../Layer_Stack_Details.md) for the complete reference table (courtyard = M6/M7, assembly = M4/M5, 3D body = M10/M11, etc.).
+
+## 📏 Naming rules
+See [Library Conventions](../docs/LIBRARY_CONVENTIONS.md) for footprint naming standards.

@@ -1,0 +1,52 @@
+name: Report a Library Problem
+description: Report an error in a schematic symbol, footprint, 3D model, or IntLib
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Affected Library File
+      placeholder: e.g. Schematic_Symbols/Regulator_Switching.SchLib
+      description: Which .SchLib, .PcbLib, .IntLib, or 3D model has the issue?
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: Component Name
+      placeholder: e.g. TI_TPS61023DRLR
+      description: The specific component inside the library (if applicable).
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What's wrong?
+      options:
+        - Incorrect pin mapping / pinout
+        - Wrong footprint dimensions
+        - Missing 3D model
+        - Misaligned 3D model
+        - ERC / DRC error
+        - Naming inconsistency
+        - Missing from IntLib
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description
+      placeholder: What did you expect vs. what actually happened?
+    validations:
+      required: true
+  - type: input
+    id: altium_version
+    attributes:
+      label: Altium Designer Version
+      placeholder: e.g. 24.5.1
+  - type: textarea
+    id: fix_suggestion
+    attributes:
+      label: Suggested Fix
+      placeholder: If you know what needs to change, describe it here.

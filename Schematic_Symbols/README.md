@@ -1,15 +1,30 @@
-# Schematic Symbols 📐
+# 📐 Schematic Symbols
 
-This folder contains **Altium schematic symbols** that are converted from **KiCad 9.0** libraries, fine-tuned for use in **Altium Designer**.
+This folder contains **Altium schematic symbols** (`.SchLib`) converted from **KiCad 9.0** libraries and tuned for Altium Designer.
 
-### 📂 **Files Included:**
-- **.SchLib** files: These are the schematic symbol libraries in **Altium format**.
+---
 
-### 🛠️ **How to Use:**
+## 📂 Contents
+- 230+ `.SchLib` files covering analog, amplifiers, connectors, MCUs, regulators, passives, logic, RF, and more.
+- Each file contains multiple symbols grouped by category.
+
+## 🛠️ How to use
 1. Open Altium Designer.
-2. Go to `File > Open`, and select the desired `.SchLib` file from this folder.
-3. Once opened, you can import symbols directly into your schematics by adding them from the **Libraries** panel.
-4. Symbols are now ready to be used for wiring and schematic design.
+2. `File → Open` → select the `.SchLib` file you need.
+3. Import symbols from the **Libraries panel** into your schematic.
 
-### 📅 **Planned Updates:**
-- Additional symbols will be added regularly to expand the collection.
+## ⚠️ Lock before you edit
+These files are **binary** — Git can't merge them. Before editing any `.SchLib`:
+```bash
+git lfs lock Schematic_Symbols/<file>.SchLib
+```
+After pushing: `git lfs unlock Schematic_Symbols/<file>.SchLib`
+
+**Full process →** [Adding a Component](../docs/ADDING_COMPONENT.md)
+
+## 📏 Naming rules
+See [Library Conventions](../docs/LIBRARY_CONVENTIONS.md) for symbol naming standards (`Manufacturer_MPN_Description`).
+
+## 🖼️ Reference
+- [Layer Stack Details](../Layer_Stack_Details.md) — KiCad → Altium layer mapping
+- [Root README](../README.md) — overview and branch workflow

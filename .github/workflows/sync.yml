@@ -1,0 +1,76 @@
+name: sync-branches
+
+# When anyone pushes to a dev-* branch:
+#   1. merge that branch into `dev`
+#   2. fan `dev` back out to every other dev-* branch
+#
+# Altium library files are BINARY and cannot be text-merged. So this workflow
+# NEVER force-overwrites: if a merge/fast-forward is not clean, it opens a Pull
+# Request for a human to resolve in Altium instead of destroying someone's work.
+#
+# Loop-safety: pushes made with GITHUB_TOKEN do not re-trigger workflows, so the
+# fan-out below cannot cause an infinite sync loop.
+
+on:
+  push:
+    branches:
+      - 'dev-*'   # ANY branch named dev-something, including FUTURE new ones
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: branch-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name  "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+
+      - name: Sync branches
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          SRC="${GITHUB_REF_NAME}"
+          # Discover every dev-* branch that currently exists (future-proof:
+          # new dev-* branches are picked up automatically, no edit needed).
+          ALL=$(git for-each-ref --format='%(refname:short)' 'refs/remotes/origin/dev-*' | sed 's#^origin/##')
+
+          # 1) merge the pushed branch into dev (PR if it can't merge cleanly)
+          git checkout dev
+          if git merge --no-ff "origin/$SRC" -m "sync: $SRC -> dev"; then
+            git push origin dev
+            echo "Merged $SRC into dev."
+          else
+            git merge --abort
+            gh pr create --base dev --head "$SRC" \
+              --title "Manual merge needed: $SRC -> dev" \
+              --body "Automatic sync hit a binary (Altium) conflict. Resolve in Altium, then merge." \
+              || echo "PR already exists for $SRC -> dev"
+            exit 0
+          fi
+
+          # 2) fan dev out to every OTHER dev-* branch (clean fast-forward only)
+          for B in $ALL; do
+            [ "$B" = "$SRC" ] && continue
+            if git push origin "dev:$B" 2>/dev/null; then
+              echo "$B fast-forwarded to dev."
+            else
+              gh pr create --base "$B" --head dev \
+                --title "Sync dev -> $B (needs review)" \
+                --body "Could not fast-forward $B (it has its own commits). Review and merge." \
+                || echo "PR exists / nothing to sync for $B"
+            fi
+          done

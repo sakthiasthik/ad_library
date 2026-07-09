@@ -152,6 +152,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CJEKBSBP
 
 [Document7]
+DocumentPath=..\..\Schematic_Symbols\Power_Bank.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NTLFHROP
+
+[Document8]
 DocumentPath=..\..\Schematic_Symbols\Power_Management.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXJOCUEX
 
-[Document8]
+[Document9]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Current.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWFGMWKR
 
-[Document9]
+[Document10]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Linear.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFYIPDFC
 
-[Document10]
+[Document11]
 DocumentPath=..\..\Schematic_Symbols\Regulator_SwitchedCapacitor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRNIPWBZ
 
-[Document11]
+[Document12]
 DocumentPath=..\..\Schematic_Symbols\Regulator_Switching.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZIZWVFYV
 
-[Document12]
+[Document13]
 DocumentPath=..\..\Schematic_Symbols\Reference_Voltage.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,6 +269,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IQFVUORC
+
+[Document14]
+DocumentPath=..\..\Footprints\TI.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -842,36 +876,6 @@ OutputName13=Web Review Data
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=Ansoft Neutral
-OutputName14=Ansoft Neutral (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=HyperLynx
-OutputName15=HyperLynx (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=SiSoft
-OutputName19=SiSoft (AutoPCB)
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

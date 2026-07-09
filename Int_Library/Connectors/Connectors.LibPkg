@@ -254,6 +254,23 @@ GenerateClassCluster=0
 DocumentUniqueId=ACRSYOIX
 
 [Document13]
+DocumentPath=..\..\Footprints\Connector_PCBEdge.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RDWAOCRK
+
+[Document14]
 DocumentPath=..\..\Footprints\Connector_PinHeader_1.00mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LHUMJVAF
 
-[Document14]
+[Document15]
 DocumentPath=..\..\Footprints\Connector_PinHeader_1.27mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=..\..\Footprints\Connector_PinHeader_2.00mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BBPHJCPP
 
-[Document16]
+[Document17]
 DocumentPath=..\..\Footprints\Connector_PinHeader_2.54mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HRTCYXOL
 
-[Document17]
+[Document18]
 DocumentPath=..\..\Footprints\Connector_PinSocket_1.00mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OXCXMQQS
 
-[Document18]
+[Document19]
 DocumentPath=..\..\Footprints\Connector_PinSocket_1.27mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=..\..\Footprints\Connector_PinSocket_2.00mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPIOKATC
 
-[Document20]
+[Document21]
 DocumentPath=..\..\Footprints\Connector_PinSocket_2.54mm.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=..\..\Footprints\Connector_USB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UQOVKQHY
 
-[Document22]
+[Document23]
 DocumentPath=..\..\Footprints\Fiducial.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PMEODQEL
 
-[Document23]
+[Document24]
 DocumentPath=..\..\Footprints\Connector_Coaxial.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VRBCJGWT
 
-[Document24]
+[Document25]
 DocumentPath=..\..\Footprints\Diagonal_Holes.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +474,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document26]
 DocumentPath=..\..\Footprints\Connector_Molex.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +491,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWHFSRFL
 
-[Document26]
+[Document27]
 DocumentPath=..\..\Footprints\Connector_JAE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +508,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=..\..\Footprints\Connector_JAE_WP7B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +525,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document29]
 DocumentPath=..\..\Footprints\Battery.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -525,7 +542,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GLGXQXAK
 
-[Document29]
+[Document30]
 DocumentPath=..\..\Schematic_Symbols\Battery_Holder.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -542,7 +559,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNKQSSVL
 
-[Document30]
+[Document31]
 DocumentPath=..\..\Schematic_Symbols\Mechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -559,7 +576,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DOGQMJWH
 
-[Document31]
+[Document32]
 DocumentPath=..\..\Footprints\MountingHole.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -576,7 +593,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NLYPIJTV
 
-[Document32]
+[Document33]
 DocumentPath=..\..\Footprints\Connector_Video.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,6 +609,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JSBBTORT
+
+[Document34]
+DocumentPath=..\..\Footprints\Connector_RJ.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document35]
+DocumentPath=..\..\Footprints\Connector_Audio.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JRXBMGSW
 
 [OutputGroup1]
 Name=Netlist Outputs
