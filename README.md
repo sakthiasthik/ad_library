@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Branches synced automatically](https://img.shields.io/badge/branches-auto--synced-green.svg)](docs/GIT_WORKFLOW.md)
-[![LFS file locking](https://img.shields.io/badge/lfs-file--locking-orange.svg)](docs/GIT_WORKFLOW.md#file-locking--detailed-reference)
+[![PR-on-conflict safety net](https://img.shields.io/badge/conflicts-PR--protected-orange.svg)](docs/GIT_WORKFLOW.md#handling-binary-conflicts)
 
 ---
 
@@ -37,20 +37,18 @@
 
 ---
 
-## 🔒 The golden rule
+## 🔑 The one rule for binary files
 
-> **Lock → Edit → Push → Unlock**
+Altium files (`.SchLib`, `.PcbLib`, `.IntLib`) are **binary** — Git can't merge them. So there's just one rule:
 
-Our library files are binary — Git cannot merge them. **Lock a file before opening it in Altium**, or you risk losing work.
+> **Don't let two people edit the *same* file at the same time.**
 
-```bash
-git lfs lock Schematic_Symbols/Regulator_Switching.SchLib   # claim it
-# ... edit in Altium, commit, push ...
-git lfs unlock Schematic_Symbols/Regulator_Switching.SchLib # release it
-git lfs locks                                                 # who holds what?
-```
+How to stay safe (no locking, no read-only files):
+1. **Pull before you start** — `git checkout dev && git pull`
+2. **Tell the team** which library file you're about to edit (a quick message is enough).
+3. **Push as soon as you're done** — don't sit on changes for days.
 
-**[Full guide →](docs/GIT_WORKFLOW.md)**
+If an overlap ever happens, the auto-sync bot **opens a Pull Request instead of overwriting** — nobody loses work. **[Full guide →](docs/GIT_WORKFLOW.md)**
 
 ---
 

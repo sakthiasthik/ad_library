@@ -20,12 +20,8 @@ Footprints reference their 3D models via **relative paths** — works on any mac
 ```
 If a model is missing, check [`3D_Models/TODO.md`](../3D_Models/TODO.md) — it may not exist yet.
 
-## ⚠️ Lock before you edit
-`.PcbLib` files are binary. Lock before editing:
-```bash
-git lfs lock Footprints/<file>.PcbLib
-```
-After pushing: `git lfs unlock Footprints/<file>.PcbLib`
+## ⚠️ Before you edit
+`.PcbLib` files are binary — Git can't merge them. **Pull first, tell the team which file you're editing, and push as soon as you're done** so two people don't edit the same file at once.
 
 **Full process →** [Adding a Component](../docs/ADDING_COMPONENT.md)
 
