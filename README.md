@@ -34,6 +34,7 @@
 | **Keep a checklist while I work** | → [Component Checklist](NEW_COMPONENT_CHECKLIST.md) |
 | **Request a new component / report a bug** | → [Open an Issue](https://github.com/sakthiasthik/ad_library/issues/new/choose) |
 | **See KiCad → Altium layer mapping** | → [Layer Stack Details](Layer_Stack_Details.md) |
+| **See what changed recently** | → [Changelog](CHANGELOG.md) |
 
 ---
 
