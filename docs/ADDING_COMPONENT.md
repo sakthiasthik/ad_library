@@ -7,23 +7,24 @@ Follow these steps every time you add or modify a component in the library. **Ke
 ## Overview
 
 ```
-🔒 Lock  →  ✏️ Symbol  →  🦶 Footprint  →  🧊 3D Model  →  📦 IntLib  →  📝 Commit  →  🚀 Push  →  🔓 Unlock
+✏️ Symbol  →  🦶 Footprint  →  🧊 3D Model  →  📦 IntLib  →  📝 Commit  →  🚀 Push
 ```
+
+> **Before you start:** pull the latest `dev`, and tell the team which library file you'll edit so two people don't touch the same file at once.
 
 ---
 
-## Step 0: Lock the files FIRST
+## Step 0: Start from the latest code
 
-**Before opening Altium**, lock every library file you plan to edit.
+**Before opening Altium**, make sure you have the newest version and won't clash with anyone.
 
 ```bash
-# Example: adding a new DC-DC regulator
-git lfs lock Schematic_Symbols/Regulator_Switching.SchLib
-git lfs lock Footprints/TI.PcbLib
-git lfs lock Int_Library/Regulator_DC_DC/Regulator_DC_DC.LibPkg
+git checkout dev
+git pull origin dev
+git checkout -b dev-YOURNAME   # or switch to your existing branch
 ```
 
-If a lock fails (someone else holds it), **contact them** or wait. Do NOT edit without the lock.
+Then send a quick message to the team: *"editing Regulator_Switching.SchLib"*. That one line is all it takes to avoid two people editing the same binary file.
 
 ---
 
@@ -112,17 +113,12 @@ The auto-sync bot merges your branch into `dev`, then fans `dev` out to all othe
 
 ---
 
-## Step 7: Unlock the files
+## Step 7: Confirm it synced
 
-```bash
-git lfs unlock Schematic_Symbols/Regulator_Switching.SchLib
-git lfs unlock Footprints/TI.PcbLib
-git lfs unlock Int_Library/Regulator_DC_DC/Regulator_DC_DC.LibPkg
-```
+Go to the **Actions tab** and confirm the `sync-branches` workflow finished green ✅.
 
-**Always unlock after pushing** — your teammates depend on it.
-
-Verify no stray locks remain: `git lfs locks`
+- ✅ Green → your component is now in `dev` and synced to the whole team.
+- ⚠️ A PR opened instead → you have a binary conflict (someone edited the same file). See [Resolving Conflicts](GIT_WORKFLOW.md#handling-binary-conflicts).
 
 ---
 

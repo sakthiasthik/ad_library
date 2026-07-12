@@ -55,13 +55,9 @@ The `.LibPkg` is the **editable source** — it references `.SchLib` and `.PcbLi
 
 **Full step-by-step →** [Adding a Component](../docs/ADDING_COMPONENT.md)
 
-## ⚠️ Lock before you edit
+## ⚠️ Before you edit
 
-`.LibPkg` and `.IntLib` files are binary. Lock before editing:
-```bash
-git lfs lock Int_Library/<Category>/<Category>.LibPkg
-```
-After pushing: `git lfs unlock Int_Library/<Category>/<Category>.LibPkg`
+`.LibPkg` and `.IntLib` files are binary — Git can't merge them. **Pull first, coordinate with the team, and push as soon as you're done** so two people don't edit the same file at once.
 
 ## 🔗 Related
 - [Schematic Symbols](../Schematic_Symbols/) — source `.SchLib` files

@@ -42,16 +42,15 @@ You push to dev-sakthi
 
 ---
 
-## The daily workflow (lock → edit → push → unlock)
+## The daily workflow
 
 ```bash
-# 1. Start fresh
+# 1. Start from the latest dev
 git checkout dev
 git pull origin dev
 git checkout -b dev-YOURNAME
 
-# 2. Lock the file(s) you'll edit
-git lfs lock Schematic_Symbols/SomeFile.SchLib
+# 2. (Coordinate) Tell the team which library file you're editing
 
 # 3. Edit in Altium, save, commit
 git add Schematic_Symbols/SomeFile.SchLib
@@ -61,10 +60,7 @@ git commit -m "Add XYZ component"
 git push origin dev-YOURNAME
 
 # 5. Verify the bot synced (Actions tab → green ✅)
-#    If a PR opened instead → see next section
-
-# 6. Unlock the file
-git lfs unlock Schematic_Symbols/SomeFile.SchLib
+#    If a PR opened instead → see "Handling binary conflicts" below
 ```
 
 ---
@@ -124,28 +120,21 @@ git push origin dev-sakthi
 
 ---
 
-## File locking — detailed reference
+## Avoiding clashes (instead of locking)
 
-### Why locking is required
+We deliberately do **not** use file locking or read-only files — they caused too much friction (especially on Windows, where `git lfs lock` is unreliable). Instead, avoid clashes with three simple habits:
 
-`.SchLib`, `.PcbLib`, `.IntLib` files are **binary**. Git sees them as opaque blobs. When two people edit the same file:
+1. **Pull before you start.** `git checkout dev && git pull` so you're editing the newest version.
+2. **Announce the file.** A one-line message ("editing Regulator_Switching.SchLib") stops two people opening the same file.
+3. **Push quickly.** The longer a file sits edited-but-unpushed, the more likely someone else touches it.
 
-- Git's internal merge (`merge-tree`) marks it as "changed in both" — FULL conflict.
-- There is **no** line-by-line resolution possible.
-- The only safe approach: **prevent the overlap entirely** with file locks.
+### What if two people edit the same file anyway?
 
-### Commands
+You're still protected. The auto-sync bot **never overwrites** — it opens a Pull Request so a human combines both changes in Altium. See [Handling binary conflicts](#handling-binary-conflicts).
 
-| Command | What it does |
-|---------|-------------|
-| `git lfs lock <file>` | Claim a file — only you can push changes to it |
-| `git lfs unlock <file>` | Release your claim |
-| `git lfs locks` | List all currently locked files (and who holds them) |
-| `git lfs unlock <file> --force` | Admin override — break someone else's lock |
+### Best long-term fix: split libraries by owner
 
-### What if someone is holding a lock?
-
-Contact them first. If they're unavailable and it's urgent, use `--force`, but **notify them immediately** — any un-pushed changes on their machine are at risk.
+Give each person their own library files (e.g. Sakthi owns `Regulator_*`, Srigowd owns `Connector_*`). Then clashes basically can't happen. See [Library Conventions](LIBRARY_CONVENTIONS.md).
 
 ---
 
