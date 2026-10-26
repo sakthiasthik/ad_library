@@ -1,14 +1,8 @@
+# Large binary integrated libraries are stored in Git LFS.
 *.IntLib* filter=lfs diff=lfs merge=lfs -text
 
-# --- Altium binary libraries: file locking (Git LFS) ---
-# These files are binary and CANNOT be text-merged by git. To avoid losing
-# work, lock a file before editing so only one person can change it at a time.
-#
-#   git lfs lock   Schematic_Symbols/Some.SchLib   # claim it before editing
-#   git push                                       # push your change
-#   git lfs unlock Schematic_Symbols/Some.SchLib   # release it
-#   git lfs locks                                  # see who holds what
-#
-*.SchLib lockable
-*.PcbLib lockable
-*.IntLib lockable
+# NOTE: We do NOT use `lockable` / read-only file locking.
+# Altium binary files (.SchLib/.PcbLib/.IntLib) still cannot be text-merged,
+# so avoid two people editing the SAME file at once. The auto-sync workflow
+# protects you: if an overlap happens, it opens a Pull Request instead of
+# overwriting anyone's work. See docs/GIT_WORKFLOW.md.

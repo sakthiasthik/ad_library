@@ -4,7 +4,7 @@
 
 ## Checklist
 
-- [ ] I locked the library files before editing: `git lfs lock <file>`
+- [ ] I pulled the latest `dev` before editing and coordinated on shared files
 - [ ] Component follows [naming conventions](docs/LIBRARY_CONVENTIONS.md)
 - [ ] Schematic symbol: correct pin names, numbers, and electrical types
 - [ ] Footprint: pads match datasheet, courtyard added (M6/M7), silkscreen clean
@@ -12,7 +12,7 @@
 - [ ] IntLib recompiled — no ERC errors
 - [ ] Committed with a clear message: `Add/Update <MPN> - <Description>`
 - [ ] CI (sync-branches) is green ✅ — [check Actions](https://github.com/sakthiasthik/ad_library/actions)
-- [ ] Files unlocked after push: `git lfs unlock <file>`
+- [ ] Pushed promptly (didn't hold the file edited-but-unshared for long)
 
 ## Files changed
 

@@ -7,12 +7,8 @@
 ## Before you start
 
 - [ ] I read the [Library Conventions](docs/LIBRARY_CONVENTIONS.md) and my component follows the naming rules
-- [ ] I locked every library file I'm about to edit: `git lfs lock <file>`
-  ```bash
-  # List the files you locked:
-  # [ ] <file1>
-  # [ ] <file2>
-  ```
+- [ ] I pulled the latest `dev` before starting: `git checkout dev && git pull`
+- [ ] I told the team which library file(s) I'm editing (so two people don't edit the same file)
 
 ## Component
 
@@ -62,8 +58,8 @@
 
 ## Cleanup
 
-- [ ] Unlocked all files: `git lfs unlock <file>`
-- [ ] Verified no stray locks: `git lfs locks`
+- [ ] Pushed promptly so the file isn't held edited-but-unshared for long
+- [ ] Confirmed the `sync-branches` workflow is green (or resolved the PR if one opened)
 
 ---
 

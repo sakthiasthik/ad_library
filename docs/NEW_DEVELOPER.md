@@ -49,26 +49,18 @@ Your branch is now tracked. The auto-sync workflow will pick it up with zero con
 
 ---
 
-## 4. Understand the golden rule
+## 4. The one rule for binary files
 
-> **🔒 Lock → Edit → Push → Unlock**
+Our library files (`.SchLib`, `.PcbLib`, `.IntLib`) are **binary** — Git cannot merge them. So the one rule is:
 
-Our library files (`.SchLib`, `.PcbLib`, `.IntLib`) are **binary**. Git cannot merge them. If two people edit the same file, one person's work is destroyed.
+> **Don't let two people edit the same file at the same time.**
 
-File locking prevents this entirely. **Before touching any library file in Altium, lock it:**
+There are **no locks and no read-only files**. Just three habits:
+1. **Pull before you start:** `git checkout dev && git pull`
+2. **Tell the team** which library file you're editing.
+3. **Push as soon as you're done.**
 
-```bash
-git lfs lock Schematic_Symbols/Regulator_Switching.SchLib
-```
-
-After pushing your change, unlock it:
-
-```bash
-git lfs unlock Schematic_Symbols/Regulator_Switching.SchLib
-```
-
-**See who holds what:** `git lfs locks`
-**Admin override (stuck lock):** `git lfs unlock <file> --force`
+If an overlap happens anyway, the auto-sync bot opens a Pull Request instead of overwriting — nobody loses work. [Details →](GIT_WORKFLOW.md#handling-binary-conflicts)
 
 ---
 
@@ -99,17 +91,17 @@ Check it running: **GitHub → Actions tab → `sync-branches` workflow.**
 ## 7. Quick reference card
 
 ```bash
-# Lock a file before editing
-git lfs lock <path>
-
-# See all current locks
-git lfs locks
-
-# Unlock after push
-git lfs unlock <path>
-
-# Start fresh (one-time)
+# One-time setup
 git lfs install
+
+# Start work (always from the latest dev)
+git checkout dev && git pull
+git checkout -b dev-YOURNAME
+
+# Save & share
+git add <file>
+git commit -m "Add XYZ component"
+git push origin dev-YOURNAME
 ```
 
 ---

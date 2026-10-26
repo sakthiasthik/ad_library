@@ -13,12 +13,8 @@ This folder contains **Altium schematic symbols** (`.SchLib`) converted from **K
 2. `File → Open` → select the `.SchLib` file you need.
 3. Import symbols from the **Libraries panel** into your schematic.
 
-## ⚠️ Lock before you edit
-These files are **binary** — Git can't merge them. Before editing any `.SchLib`:
-```bash
-git lfs lock Schematic_Symbols/<file>.SchLib
-```
-After pushing: `git lfs unlock Schematic_Symbols/<file>.SchLib`
+## ⚠️ Before you edit
+These files are **binary** — Git can't merge them. Don't edit the same `.SchLib` as someone else at the same time: **pull first, tell the team which file you're editing, and push as soon as you're done.**
 
 **Full process →** [Adding a Component](../docs/ADDING_COMPONENT.md)
 
